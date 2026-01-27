@@ -1,0 +1,24 @@
+# This config file specifies parameters needed for building the Pico MQTT
+# device, overriding values specified in the environment.
+
+# MQTT server address (required)
+# mqtt_server = my_mqtt_server
+
+# SSID of the WiFi access point (required)
+# wifi_ssid = my_wifi_ssid
+
+# Password of the WiFi access point (required if the access point uses a password)
+# wifi_password = electr0n
+
+# Username and password for MQTT server, if it requires authentication
+# mqtt_username = username
+# mqtt_password = password
+
+# TLS path and configuration for MQTT server, if needed 
+# mqtt_cert_path = /path/to/mqtt/certs
+# mqtt_cert_include = mycert.inc
+
+# Paths to Pico SDK and resources (normally specified in environment)
+# pico_sdk_path = /path/to/pico/sdk
+# pico_examples_path = /path/to/pico/examples
+# freertos_kernel_path = /path/to/freertos/kernel
